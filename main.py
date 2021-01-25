@@ -4,11 +4,9 @@ from word_machine import WordMachine
 import math
 
 word_machine = WordMachine()
-# timer = None
 
 
 def count_down(count=60):
-    # global timer
     start_button.config(state="disabled")
     typed_word.config(state="normal")
     typed_word.focus()
